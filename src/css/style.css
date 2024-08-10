@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Rubik";
+    text-decoration: none;
+    border: none;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block: 40px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    margin-right: 117px;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.logo-container > h1 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+h1 > span {
+    font-weight: bold;
+}
+
+nav{
+    display: flex;
+    margin-right: 153px;
+    gap: 37px;
+}
+
+nav > a{
+    color: #4F5665;
+    font-size: 16px;
+}
+
+.access-container{
+    display: flex;
+    gap: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    align-items: center;
+}
+
+.access-container > a{
+    color: black;
+}
+
+.access-container > button {
+    border-radius: 50px;
+    border: 1px solid #f53855;
+    font-size: 16px;
+    color: #f53855;
+    background-color: transparent;
+    cursor: pointer;
+    
+    width: 150px;
+    height: 45px;
+}
+
+.access-container > button:hover{
+    background-color: #f53855;
+    transition: 0.5s;
+    color: aliceblue;
+}
+
+.about-container  {
+    display: flex;
+    margin-left: 150px;
+    margin-right: 83px;
+}
+
+.section-content  {
+    width: 555px;
+}
+
+.section-content h2 {
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 28px;
+}
+
+.section-content p {
+    font-size: 16px;
+}
+
+.section-content button {
+    margin-top: 20px;
+    margin-right: 1040px;
+    height: 60px;
+    width: 250px;
+    border-radius: 10px;
+    background-color: #f53838;
+    color: aliceblue;
+
+}
+
+
